@@ -12,5 +12,6 @@ var maxArea = function (height) {
       max= Math.max(area, max);
   }
   return max;
-
 };
+
+console.log(maxArea([1,2,3,4]));
